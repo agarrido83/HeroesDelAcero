@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Heroes del Acero</string>
+
+    // INVENTARIO
+        // OBJETOS
+            // ARMAS
+            // ARMADURAS
+                // CASCOS
+    <string name="casco_de_metal">Zona de acción: cabeza. Protección: 2 PV.</string>
+    <string name="casco_de_metal_reforzado">Zona de acción: cabeza. Protección: 3 PV.</string>
+    <string name="casco_elfico_de_krindaslon">Zona de acción: cabeza. Protección: 4 PV.</string>
+                // PETOS
+    <string name="peto_de_cuero">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 2 PV.</string>
+    <string name="peto_de_cuero_elfico">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 3 PV.</string>
+    <string name="peto_de_cuero_enano">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 4 PV.</string>
+    <string name="peto_de_cuero_endurecido_de_balkaar">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 4 PV.</string>
+    <string name="cota_de_malla_elfica">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 5 PV.</string>
+                // BRAZALES
+    <string name="brazales_de_cuero">Zona de acción: brazos. Protección: 1 PV.</string>
+    <string name="brazales_de_cuero_reforzado">Zona de acción: brazos. Protección: 2 PV.</string>
+    <string name="brazales_de_krindaslon">Zona de acción: brazos. Protección: 3 PV.</string>
+                // GREBAS
+    <string name="grebas_de_cuero">Zona de acción: piernas. Protección: 1 PV.</string>
+    <string name="grebas_de_cuero_enano">Zona de acción: piernas. Protección: 2 PV.</string>
+    <string name="grebas_de_cuero_endurecido">Zona de acción: piernas. Protección: 2 PV.</string>
+    <string name="grebas_de_krindaslon">Zona de acción: piernas. Protección: 3 PV.</string>
+    <string name="grebas_metalicas">Zona de acción: piernas. Protección: 2 PV.</string>
+            // EQUIPO
+            // MAGICOS
+    <string name="anillo_de_voldar">Ataque con los puños, MAG. Daño: 1d6-1.</string>
+    <string name="anillo_de_volkar_desc">Se trata de una sortija plateada sin adorno alguno, gracias a la cual podrás pelear con tus puños empleando tu poder mágico. Los ataques que realices de este modo no consumen puntos de poder (PP).</string>
+
+    <string name="guantes_de_poder">Zona de acción: brazos. Protección: 1 PV.</string>
+    <string name="guantes_de_poder_desc">Recibirás 1 punto de protección en los brazos a modo de escudo.</string>
+
+    <string name="collar_de_vida">Zona de acción: todo el cuerpo. Protección: 1 PV.</string>
+    <string name="collar_de_vida_desc">Tus puntos de vida base (PV) aumentan una unidad.</string>
+
+    <string name="cinto_de_resistencia">Zona de acción: abdomen (punto 3). Protección: 1 PV.</string>
+    <string name="cinto_de_resistencia_desc">Recibirás 1 punto de protección en el abdomen a modo de escudo.</string>
+
+    <string name="capa_magica_de_molfrach">Zona de acción: tronco (puntos 2, 3 y 4). Protección: 1 PV.</string>
+    <string name="capa_magica_de_molfrach_desc">Recibirás 1 punto de protección en el tronco a modo de escudo.</string>
+
+    <string name="anillo_de_ronwen">Zona de acción: brazos. Protección: 1 PV.</string>
+    <string name="anillo_de_ronwen_desc">Recibirás 1 punto de protección en los brazos a modo de escudo.</string>
+
+    <string name="collar_de_vida_aumentada">Zona de acción: todo el cuerpo. Protección: 3 PV.</string>
+    <string name="collar_de_vida_aumentada_desc">Tus puntos de vida base (PV) aumentan tres unidades. Sólo puedes llevar puesto un único collar a la vez.</string>
+
+    <string name="brazalete_mistico_duymor">Zona de acción: todo el cuerpo. +1 PER.</string>
+    <string name="brazalete_mistico_duymor">Tus puntos de percepción (PER) aumentan una unidad.</string>
+        // HABILIDADES
+        // ENEMIGOS
+</resources>

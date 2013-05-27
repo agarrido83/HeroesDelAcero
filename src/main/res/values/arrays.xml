@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profesiones">
+        <item>Hechicero</item>
+        <item>Cazador</item>
+        <item>Guerrero</item>
+        <item>Ladrón</item>
+        <item>juglar</item>
+        <item>Monje Caballero de Sàgrast</item>
+        <item>Alquimista</item>
+    </string-array>
+</resources>
