@@ -10,7 +10,7 @@
 
             <string name="productos_quimicos_0_nom">Productos químicos de grado 0.</string>
             <string name="productos_quimicos_0_des">(Sólo para alquimistas). Permite fabricar una poción curativa de grado 0.</string>
-            <string name="productos_quimicos_0_exp">.</string>
+            <string name="productos_quimicos_0_exp">L.</string>
             // ARMADURAS
                 // CASCOS
                 <string name="casco_de_metal_nom">Casco de metal.</string>
