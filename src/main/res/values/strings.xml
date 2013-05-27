@@ -10,7 +10,7 @@
 
             <string name="productos_quimicos_0_nom">Productos químicos de grado 0.</string>
             <string name="productos_quimicos_0_des">(Sólo para alquimistas). Permite fabricar una poción curativa de grado 0.</string>
-            <string name="productos_quimicos_0_exp">L.</string>
+            <string name="productos_quimicos_0_exp">Podrá fabricar una poción curativa capaz de sanar 1d6 PV (más sus puntos extra por la habilidad especial del alquimista, o sea, 2d6). El modo de empleo es el habitual en las pociones: durante un combate, tras ganar una tirada enfrentada de ataque, en lugar de herir a tu rival puedes optar por beberte esta poción. Sólo hay la cantidad suficiente para una toma. Al beberla, recuperas 1d6+4 puntos de vida.</string>
             // ARMADURAS
                 // CASCOS
                 <string name="casco_de_metal_nom">Casco de metal.</string>
