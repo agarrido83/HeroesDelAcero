@@ -1,6 +1,7 @@
 package com.darkgame.heroesdelacero.inventario;
 
 import android.content.res.Resources;
+import com.darkgame.heroesdelacero.Principal;
 import com.darkgame.heroesdelacero.R;
 import com.darkgame.heroesdelacero.inventario.objeto.*;
 import java.util.ArrayList;
@@ -23,71 +24,126 @@ public class InventarioDeArmaduras {
 
     public void cargaArmaduras() {
         cargaCascos();
-        //cargaPetos();
-        //cargaBrazales();
-        //cargaGrebas();
+        cargaPetos();
+        cargaBrazales();
+        cargaGrebas();
     }
 
     private void cargaCascos() {
+        Casco casco;
+        String nom;
+        String des;
+
         ArrayList<Casco> cascoArrayList = new ArrayList<Casco>();
 
-        Casco casco;
-        String desc = Inventario.res.getString(R.string.casco_de_metal);
-        /*casco = new Casco("Casco de metal",res.getString(R.string.casco_de_metal));
+        nom = Principal.res.getString(R.string.casco_de_metal_nom);
+        des = Principal.res.getString(R.string.casco_de_metal_des);
+        casco = new Casco(nom,des);
         cascoArrayList.add(casco);
-        casco = new Casco("Casco de metal reforzado",res.getString(R.string.casco_de_metal_reforzado));
+
+        nom = Principal.res.getString(R.string.casco_de_metal_reforzado_nom);
+        des = Principal.res.getString(R.string.casco_de_metal_reforzado_des);
+        casco = new Casco(nom,des);
         cascoArrayList.add(casco);
-        casco = new Casco("Casco élfico de Krindaslon",res.getString(R.string.casco_elfico_de_krindaslon));
-        cascoArrayList.add(casco);*/
+
+        nom = Principal.res.getString(R.string.casco_elfico_de_krindaslon_nom);
+        des = Principal.res.getString(R.string.casco_elfico_de_krindaslon_des);
+        casco = new Casco(nom,des);
+        cascoArrayList.add(casco);
 
         coleccionDeCascos = cascoArrayList;
     }
 
     private void cargaPetos() {
+        String nom;
+        String des;
+        Peto peto;
+
         ArrayList<Peto> petoArrayList = new ArrayList<Peto>();
 
-        Peto peto;
-        peto = new Peto("Peto de cuero",Inventario.res.getString(R.string.peto_de_cuero));
+        nom = Principal.res.getString(R.string.peto_de_cuero_nom);
+        des = Principal.res.getString(R.string.peto_de_cuero_des);
+        peto = new Peto(nom,des);
         petoArrayList.add(peto);
-        peto = new Peto("Peto de cuero élfico",Inventario.res.getString(R.string.peto_de_cuero_elfico));
+
+        nom = Principal.res.getString(R.string.peto_de_cuero_elfico_nom);
+        des = Principal.res.getString(R.string.peto_de_cuero_elfico_des);
+        peto = new Peto(nom,des);
         petoArrayList.add(peto);
-        peto = new Peto("Peto de cuero enano",Inventario.res.getString(R.string.peto_de_cuero_enano));
+
+        nom = Principal.res.getString(R.string.peto_de_cuero_enano_nom);
+        des = Principal.res.getString(R.string.peto_de_cuero_enano_des);
+        peto = new Peto(nom,des);
         petoArrayList.add(peto);
-        peto = new Peto("Peto de cuero endurecido",Inventario.res.getString(R.string.peto_de_cuero_endurecido_de_balkaar));
+
+        nom = Principal.res.getString(R.string.peto_de_cuero_endurecido_de_balkaar_nom);
+        des = Principal.res.getString(R.string.peto_de_cuero_endurecido_de_balkaar_des);
+        peto = new Peto(nom,des);
         petoArrayList.add(peto);
-        peto = new Peto("Cota de malla éfica",Inventario.res.getString(R.string.cota_de_malla_elfica));
+
+        nom = Principal.res.getString(R.string.cota_de_malla_elfica_nom);
+        des = Principal.res.getString(R.string.cota_de_malla_elfica_des);
+        peto = new Peto(nom,des);
         petoArrayList.add(peto);
 
         coleccionDePetos = petoArrayList;
     }
 
     private void cargaBrazales() {
+        String nom;
+        String des;
+        Brazales brazales;
+
         ArrayList<Brazales> brazalesArrayList = new ArrayList<Brazales>();
 
-        Brazales brazales;
-        brazales = new Brazales("Brazales de cuero",Inventario.res.getString(R.string.brazales_de_cuero));
+        nom = Principal.res.getString(R.string.brazales_de_cuero_nom);
+        des = Principal.res.getString(R.string.brazales_de_cuero_des);
+        brazales = new Brazales(nom,des);
         brazalesArrayList.add(brazales);
-        brazales = new Brazales("Brazales de cuero reforzado",Inventario.res.getString(R.string.brazales_de_cuero_reforzado));
+
+        nom = Principal.res.getString(R.string.brazales_de_cuero_reforzado_nom);
+        des = Principal.res.getString(R.string.brazales_de_cuero_reforzado_des);
+        brazales = new Brazales(nom,des);
         brazalesArrayList.add(brazales);
-        brazales = new Brazales("Brazales de Krindaslon",Inventario.res.getString(R.string.brazales_de_krindaslon));
+
+        nom = Principal.res.getString(R.string.brazales_de_krindaslon_nom);
+        des = Principal.res.getString(R.string.brazales_de_krindaslon_des);
+        brazales = new Brazales(nom,des);
         brazalesArrayList.add(brazales);
 
         coleccionDeBrazales = brazalesArrayList;
     }
 
     private void cargaGrebas() {
+        String nom;
+        String des;
+        Grebas grebas;
+
         ArrayList<Grebas> grebasArrayList = new ArrayList<Grebas>();
 
-        Grebas grebas;
-        grebas = new Grebas("Grebas de cuero",Inventario.res.getString(R.string.grebas_de_cuero));
+        nom = Principal.res.getString(R.string.grebas_de_cuero_nom);
+        des = Principal.res.getString(R.string.grebas_de_cuero_des);
+        grebas = new Grebas(nom,des);
         grebasArrayList.add(grebas);
-        grebas = new Grebas("Grebas de cuero enano",Inventario.res.getString(R.string.grebas_de_cuero_enano));
+
+        nom = Principal.res.getString(R.string.grebas_de_cuero_enano_nom);
+        des = Principal.res.getString(R.string.grebas_de_cuero_enano_des);
+        grebas = new Grebas(nom,des);
         grebasArrayList.add(grebas);
-        grebas = new Grebas("Grebas de cuero endurecido",Inventario.res.getString(R.string.grebas_de_cuero_endurecido));
+
+        nom = Principal.res.getString(R.string.grebas_de_cuero_endurecido_nom);
+        des = Principal.res.getString(R.string.grebas_de_cuero_endurecido_des);
+        grebas = new Grebas(nom,des);
         grebasArrayList.add(grebas);
-        grebas = new Grebas("Grebas de Krindaslon",Inventario.res.getString(R.string.grebas_de_krindaslon));
+
+        nom = Principal.res.getString(R.string.grebas_de_krindaslon_nom);
+        des = Principal.res.getString(R.string.grebas_de_krindaslon_des);
+        grebas = new Grebas(nom,des);
         grebasArrayList.add(grebas);
-        grebas = new Grebas("Grebas_metalicas",Inventario.res.getString(R.string.grebas_metalicas));
+
+        nom = Principal.res.getString(R.string.grebas_metalicas_nom);
+        des = Principal.res.getString(R.string.grebas_metalicas_des);
+        grebas = new Grebas(nom,des);
         grebasArrayList.add(grebas);
 
         coleccionDeGrebas = grebasArrayList;

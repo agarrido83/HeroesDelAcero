@@ -7,8 +7,8 @@ public abstract class Objeto {
     protected String nombre;
     protected String descripcion;
 
-    public Objeto(String nom, String desc) {
+    public Objeto(String nom, String des) {
         nombre = nom;
-        descripcion = desc;
+        descripcion = des;
     }
 }

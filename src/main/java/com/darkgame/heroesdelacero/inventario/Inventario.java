@@ -1,6 +1,5 @@
 package com.darkgame.heroesdelacero.inventario;
 
-import android.content.Context;
 import android.content.res.Resources;
 import java.util.ArrayList;
 
@@ -8,15 +7,11 @@ import java.util.ArrayList;
  * Created by Antonio on 24/05/13.
  */
 public class Inventario {
-    public static Resources res;
-
     private static InventarioDeObjetos inventarioDeObjetos;
     private static ArrayList<HabilidadEspecial> coleccionDeHabilidadesEspeciales;
     private static ArrayList<Enemigo> coleccionDeEnemigos;
 
-    public Inventario(Context c) {
-        res = c.getResources();
-
+    public Inventario() {
         inventarioDeObjetos = null;
         coleccionDeHabilidadesEspeciales = null;
         coleccionDeEnemigos = null;
